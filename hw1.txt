@@ -1,0 +1,22 @@
+https://github.com/AaronSMoore2025/.dotfiless
+
+In this homework, I went through the the thurough instructions given in the hw instructions. Then as I followed the instructions I got to the end and ran into a big problem. The code returned an error and said that the connection to my github page and repository were not found. I tried to go back and figure out where my mistake was; however, this did not work. To fix this problem I went and created another github account and started from scratch. I carefully went through the instructions again and when I reached the end of the suggested code to input, everything worked perfectky and immediately added the code up to my github page
+
+mkidr .dotfiles
+ls -a          
+cd .dotfiles
+pwd
+touch README.md
+vi README.md
+cat README.md
+cd ..              
+cp .vimrc .dotfiles
+cd .dotfiles
+git init
+git add --all
+git commit -m "INIT commit"
+git branch -M main
+git remote add origin git@github.com:AaronsMoore25/.dotfiles
+git push -u origin main
+
+I did not use any outside sources to help me with this homework
